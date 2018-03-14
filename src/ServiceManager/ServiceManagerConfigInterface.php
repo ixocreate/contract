@@ -3,10 +3,6 @@ declare(strict_types=1);
 
 namespace KiwiSuite\Contract\ServiceManager;
 
-use KiwiSuite\ServiceManager\Exception\InvalidArgumentException;
-use KiwiSuite\ServiceManager\SubManager\SubManagerFactoryInterface;
-use Zend\ServiceManager\Proxy\LazyServiceFactory;
-
 interface ServiceManagerConfigInterface extends \Serializable
 {
     /**
