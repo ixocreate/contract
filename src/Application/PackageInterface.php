@@ -49,4 +49,9 @@ interface PackageInterface
      * @return null|string
      */
     public function getConfigDirectory(): ?string;
+
+    /**
+     * @return array|null
+     */
+    public function getDependencies(): ?array;
 }
