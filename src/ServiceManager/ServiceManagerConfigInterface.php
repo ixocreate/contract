@@ -47,6 +47,11 @@ interface ServiceManagerConfigInterface extends SerializableServiceInterface
     public function getConfig(): array;
 
     /**
+     * @return array
+     */
+    public function getNamedServices(): array;
+
+    /**
      * @param string|null $name
      * @param null $default
      * @return mixed

@@ -37,4 +37,9 @@ interface ServiceManagerInterface extends ContainerInterface
      * @return FactoryResolverInterface
      */
     public function getFactoryResolver(): FactoryResolverInterface;
+
+    /**
+     * @return array
+     */
+    public function getServices(): array;
 }
