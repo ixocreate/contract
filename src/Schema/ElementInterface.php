@@ -1,8 +1,12 @@
 <?php
 namespace KiwiSuite\Contract\Schema;
 
-interface ElementInterface extends \JsonSerializable
+use KiwiSuite\Contract\ServiceManager\NamedServiceInterface;
+
+interface ElementInterface extends \JsonSerializable, NamedServiceInterface
 {
+    public function inputType(): string;
+
     public function type(): string;
 
     public function name(): string;

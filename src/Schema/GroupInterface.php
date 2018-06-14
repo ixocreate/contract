@@ -1,22 +1,7 @@
 <?php
 namespace KiwiSuite\Contract\Schema;
 
-interface GroupInterface extends ElementInterface
+interface GroupInterface extends ElementInterface, SchemaInterface
 {
-    /**
-     * @return ElementInterface[]
-     */
-    public function elements(): array;
-
-    /**
-     * @param string $name
-     * @return ElementInterface
-     */
-    public function get(string $name): ElementInterface;
-
-    /**
-     * @param array $elements
-     * @return ElementInterface
-     */
-    public function withElements(array $elements): ElementInterface;
+    
 }

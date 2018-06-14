@@ -6,7 +6,7 @@ interface SingleElementInterface extends ElementInterface
     /**
      * @return bool
      */
-    public function required(): bool;
+    public function isRequired(): bool;
 
     /**
      * @param bool $required
