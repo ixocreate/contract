@@ -11,7 +11,7 @@ interface ElementInterface extends \JsonSerializable, NamedServiceInterface
 
     public function name(): string;
 
-    public function label(): string;
+    public function label(): ?string;
 
     public function metadata(): array;
 
