@@ -21,6 +21,11 @@ interface SchemaInterface extends \JsonSerializable
     public function elements(): array;
 
     /**
+     * @return ElementInterface[]
+     */
+    public function all(): array;
+
+    /**
      * @param string $name
      * @return SchemaInterface
      */
