@@ -4,6 +4,12 @@ namespace KiwiSuite\Contract\Schema;
 interface SchemaInterface extends \JsonSerializable
 {
     /**
+     * @param SchemaReceiverInterface $schemaReceiver
+     * @return SchemaInterface
+     */
+    public function withSchemaReceiver(SchemaReceiverInterface $schemaReceiver): SchemaInterface;
+
+    /**
      * @param array $elements
      * @return SchemaInterface
      */
@@ -42,4 +48,9 @@ interface SchemaInterface extends \JsonSerializable
      * @return bool
      */
     public function has(string $name): bool;
+
+    /**
+     * @return SchemaReceiverInterface|null
+     */
+    public function schemaReceiver(): ? SchemaReceiverInterface;
 }
