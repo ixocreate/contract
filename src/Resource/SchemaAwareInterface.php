@@ -3,6 +3,7 @@ namespace KiwiSuite\Contract\Resource;
 
 
 use KiwiSuite\Contract\Schema\BuilderInterface;
+use KiwiSuite\Contract\Schema\Listing\ListSchemaInterface;
 use KiwiSuite\Contract\Schema\SchemaInterface;
 
 interface SchemaAwareInterface extends ResourceInterface
@@ -20,7 +21,7 @@ interface SchemaAwareInterface extends ResourceInterface
     public function updateSchema(BuilderInterface $builder): SchemaInterface;
 
     /**
-     * @return array
+     * @return ListSchemaInterface
      */
-    public function listSchema(): array;
+    public function listSchema(): ListSchemaInterface;
 }
