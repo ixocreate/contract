@@ -3,7 +3,7 @@
  * kiwi-suite/contract (https://github.com/kiwi-suite/contract)
  *
  * @package kiwi-suite/contract
- * @see https://github.com/kiwi-suite/contract
+ * @link https://github.com/kiwi-suite/contract
  * @copyright Copyright (c) 2010 - 2018 kiwi suite GmbH
  * @license MIT License
  */
