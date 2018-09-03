@@ -19,6 +19,12 @@ interface ListSchemaInterface extends \JsonSerializable
     public function elements(): array;
 
     /**
+     * @param string $name
+     * @return bool
+     */
+    public function has(string $name): bool;
+
+    /**
      * @param ElementInterface $element
      * @return ListSchemaInterface
      */
