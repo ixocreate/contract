@@ -13,5 +13,5 @@ namespace KiwiSuite\Contract\Filter;
 
 interface FilterableInterface
 {
-    public function filter();
+    public function filter(): self;
 }
