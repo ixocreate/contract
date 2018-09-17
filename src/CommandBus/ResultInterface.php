@@ -30,4 +30,9 @@ interface ResultInterface
      * @return CommandInterface
      */
     public function command(): CommandInterface;
+
+    /**
+     * @return string[]
+     */
+    public function messages(): array;
 }
