@@ -52,4 +52,11 @@ interface CommandInterface extends NamedServiceInterface
      * @return CommandInterface
      */
     public function withData(array $data): self;
+
+    /**
+     * @param string $name
+     * @param null $default
+     * @return mixed
+     */
+    public function dataValue(string $name, $default = null);
 }
