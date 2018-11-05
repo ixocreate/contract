@@ -12,9 +12,7 @@ declare(strict_types=1);
 
 namespace KiwiSuite\Contract\Admin;
 
-use KiwiSuite\Contract\ServiceManager\NamedServiceInterface;
-
-interface DashboardWidgetInterface extends \JsonSerializable, NamedServiceInterface
+interface DashboardWidgetInterface extends \JsonSerializable
 {
     /**
      * @var int
@@ -40,4 +38,14 @@ interface DashboardWidgetInterface extends \JsonSerializable, NamedServiceInterf
      * @return int
      */
     public function priority(): int;
+
+    /**
+     * @return string
+     */
+    public function type(): string;
+
+    /**
+     * @return array
+     */
+    public function data(): array;
 }
