@@ -11,6 +11,8 @@
 declare(strict_types=1);
 namespace KiwiSuite\Contract\Resource;
 
+use KiwiSuite\Contract\Admin\RoleInterface;
+
 interface AdminAwareInterface extends SchemaAwareInterface
 {
     /**
@@ -47,4 +49,22 @@ interface AdminAwareInterface extends SchemaAwareInterface
      * @return null|string
      */
     public function deleteAction(): ?string;
+
+    /**
+     * @param RoleInterface $role
+     * @return bool
+     */
+    public function canCreate(RoleInterface $role): bool;
+
+    /**
+     * @param RoleInterface $role
+     * @return bool
+     */
+    public function canEdit(RoleInterface $role): bool;
+
+    /**
+     * @param RoleInterface $role
+     * @return bool
+     */
+    public function canDelete(RoleInterface $role): bool;
 }
