@@ -32,4 +32,9 @@ interface ElementInterface extends \JsonSerializable
      * @return bool
      */
     public function searchable(): bool;
+
+    /**
+     * @return string
+     */
+    public function type(): string;
 }
