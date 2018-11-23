@@ -8,5 +8,5 @@ use KiwiSuite\Admin\Entity\User;
 
 interface AboveEditWidgetsInterface
 {
-    public function receiveAboveEditWidgets(User $user, DashboardWidgetCollectorInterface $widgetCollector): void;
+    public function receiveAboveEditWidgets(User $user, DashboardWidgetCollectorInterface $widgetCollector, string $id): void;
 }
