@@ -1,11 +1,11 @@
 {
-    "name": "kiwi-suite/contract",
-    "description": "kiwi-suite/contract",
+    "name": "ixocreate/contract",
+    "description": "The IXOCREATE contract package",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Thomas Payer"
+            "name": "IXOCREATE"
         }
     ],
     "require": {
