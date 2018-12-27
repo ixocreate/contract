@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Resource;
+namespace Ixocreate\Contract\Resource;
 
-use KiwiSuite\Contract\Admin\RoleInterface;
+use Ixocreate\Contract\Admin\RoleInterface;
 
 interface AdminAwareInterface extends SchemaAwareInterface
 {

@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Schema;
+namespace Ixocreate\Contract\Schema;
 
-use KiwiSuite\Contract\Type\TypeInterface;
+use Ixocreate\Contract\Type\TypeInterface;
 
 interface TransformableInterface
 {

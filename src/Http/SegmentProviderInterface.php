@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Http;
+namespace Ixocreate\Contract\Http;
 
 interface SegmentProviderInterface
 {

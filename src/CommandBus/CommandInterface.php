@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\CommandBus;
+namespace Ixocreate\Contract\CommandBus;
 
-use KiwiSuite\Contract\ServiceManager\NamedServiceInterface;
+use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 
 interface CommandInterface extends NamedServiceInterface
 {

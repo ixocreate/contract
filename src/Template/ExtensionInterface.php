@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Template;
+namespace Ixocreate\Contract\Template;
 
 interface ExtensionInterface
 {

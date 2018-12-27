@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Resource;
+namespace Ixocreate\Contract\Resource;
 
-use KiwiSuite\Contract\ServiceManager\NamedServiceInterface;
+use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 
 interface ResourceInterface extends NamedServiceInterface
 {

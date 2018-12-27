@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\Resource\Widgets;
+namespace Ixocreate\Contract\Resource\Widgets;
 
-use KiwiSuite\Contract\Resource\Widgets\Positions\AboveListWidgetsInterface;
-use KiwiSuite\Contract\Resource\Widgets\Positions\AboveEditWidgetsInterface;
-use KiwiSuite\Contract\Resource\Widgets\Positions\AboveCreateWidgetsInterface;
-use KiwiSuite\Contract\Resource\Widgets\Positions\BelowListWidgetsInterface;
-use KiwiSuite\Contract\Resource\Widgets\Positions\BelowEditWidgetsInterface;
-use KiwiSuite\Contract\Resource\Widgets\Positions\BelowCreateWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\AboveListWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\AboveEditWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\AboveCreateWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\BelowListWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\BelowEditWidgetsInterface;
+use Ixocreate\Contract\Resource\Widgets\Positions\BelowCreateWidgetsInterface;
 
 interface WidgetsInterface extends 
     AboveListWidgetsInterface, 

@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Event;
+namespace Ixocreate\Contract\Event;
 
 interface EventInterface
 {

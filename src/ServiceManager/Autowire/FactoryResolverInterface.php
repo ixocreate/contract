@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\ServiceManager\Autowire;
+namespace Ixocreate\Contract\ServiceManager\Autowire;
 
-use KiwiSuite\Contract\ServiceManager\FactoryInterface;
+use Ixocreate\Contract\ServiceManager\FactoryInterface;
 
 interface FactoryResolverInterface
 {

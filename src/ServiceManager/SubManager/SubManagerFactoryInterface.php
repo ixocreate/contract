@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\ServiceManager\SubManager;
+namespace Ixocreate\Contract\ServiceManager\SubManager;
 
-use KiwiSuite\Contract\ServiceManager\ServiceManagerInterface;
+use Ixocreate\Contract\ServiceManager\ServiceManagerInterface;
 
 interface SubManagerFactoryInterface
 {

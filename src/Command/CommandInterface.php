@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Command;
+namespace Ixocreate\Contract\Command;
 
 interface CommandInterface
 {

@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\ServiceManager;
+namespace Ixocreate\Contract\ServiceManager;
 
-use KiwiSuite\Contract\ServiceManager\Autowire\FactoryResolverInterface;
+use Ixocreate\Contract\ServiceManager\Autowire\FactoryResolverInterface;
 use Psr\Container\ContainerInterface;
 
 interface ServiceManagerInterface extends ContainerInterface

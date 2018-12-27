@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\ServiceManager;
+namespace Ixocreate\Contract\ServiceManager;
 
 interface FactoryInterface
 {

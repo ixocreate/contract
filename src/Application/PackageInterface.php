@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Application;
+namespace Ixocreate\Contract\Application;
 
-use KiwiSuite\Contract\ServiceManager\ServiceManagerInterface;
+use Ixocreate\Contract\ServiceManager\ServiceManagerInterface;
 
 interface PackageInterface
 {

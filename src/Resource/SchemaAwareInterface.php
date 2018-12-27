@@ -9,11 +9,11 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Resource;
+namespace Ixocreate\Contract\Resource;
 
-use KiwiSuite\Contract\Schema\BuilderInterface;
-use KiwiSuite\Contract\Schema\Listing\ListSchemaInterface;
-use KiwiSuite\Contract\Schema\SchemaInterface;
+use Ixocreate\Contract\Schema\BuilderInterface;
+use Ixocreate\Contract\Schema\Listing\ListSchemaInterface;
+use Ixocreate\Contract\Schema\SchemaInterface;
 
 interface SchemaAwareInterface extends ResourceInterface
 {

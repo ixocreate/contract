@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Type;
+namespace Ixocreate\Contract\Type;
 
 interface DatabaseTypeInterface
 {

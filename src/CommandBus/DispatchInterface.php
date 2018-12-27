@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\CommandBus;
+namespace Ixocreate\Contract\CommandBus;
 
 interface DispatchInterface
 {

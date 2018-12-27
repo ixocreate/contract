@@ -10,9 +10,9 @@
 
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\Admin;
+namespace Ixocreate\Contract\Admin;
 
-use KiwiSuite\Contract\ServiceManager\NamedServiceInterface;
+use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 
 interface RoleInterface extends NamedServiceInterface
 {

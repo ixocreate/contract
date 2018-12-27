@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Application;
+namespace Ixocreate\Contract\Application;
 
 interface ConfigProviderInterface
 {

@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Schema;
+namespace Ixocreate\Contract\Schema;
 
 interface SchemaInterface extends \JsonSerializable
 {

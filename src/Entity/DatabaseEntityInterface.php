@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\Entity;
+namespace Ixocreate\Contract\Entity;
 
 use Doctrine\ORM\Mapping\Builder\ClassMetadataBuilder;
 

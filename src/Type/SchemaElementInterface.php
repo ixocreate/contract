@@ -9,10 +9,10 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Type;
+namespace Ixocreate\Contract\Type;
 
-use KiwiSuite\Contract\Schema\ElementInterface;
-use KiwiSuite\Schema\ElementSubManager;
+use Ixocreate\Contract\Schema\ElementInterface;
+use Ixocreate\Schema\ElementSubManager;
 
 interface SchemaElementInterface
 {

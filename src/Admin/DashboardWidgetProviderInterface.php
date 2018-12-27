@@ -10,9 +10,9 @@
 
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\Admin;
+namespace Ixocreate\Contract\Admin;
 
-use KiwiSuite\Admin\Entity\User;
+use Ixocreate\Admin\Entity\User;
 
 interface DashboardWidgetProviderInterface
 {

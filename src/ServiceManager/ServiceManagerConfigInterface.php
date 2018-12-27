@@ -10,9 +10,9 @@
 
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\ServiceManager;
+namespace Ixocreate\Contract\ServiceManager;
 
-use KiwiSuite\Contract\Application\SerializableServiceInterface;
+use Ixocreate\Contract\Application\SerializableServiceInterface;
 
 interface ServiceManagerConfigInterface extends SerializableServiceInterface
 {

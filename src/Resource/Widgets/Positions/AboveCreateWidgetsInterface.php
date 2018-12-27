@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Contract\Resource\Widgets\Positions;
+namespace Ixocreate\Contract\Resource\Widgets\Positions;
 
-use KiwiSuite\Contract\Admin\DashboardWidgetCollectorInterface;
-use KiwiSuite\Admin\Entity\User;
+use Ixocreate\Contract\Admin\DashboardWidgetCollectorInterface;
+use Ixocreate\Admin\Entity\User;
 
 interface AboveCreateWidgetsInterface
 {

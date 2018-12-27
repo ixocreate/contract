@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Schema\Listing;
+namespace Ixocreate\Contract\Schema\Listing;
 
 interface ElementInterface extends \JsonSerializable
 {

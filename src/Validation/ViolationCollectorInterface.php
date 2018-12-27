@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Validation;
+namespace Ixocreate\Contract\Validation;
 
 interface ViolationCollectorInterface
 {

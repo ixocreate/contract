@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Contract\Filter;
+namespace Ixocreate\Contract\Filter;
 
 interface FilterableInterface
 {
