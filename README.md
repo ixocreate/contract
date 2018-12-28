@@ -2,7 +2,7 @@
 
 # IXOCREATE contract
 
-[![Build Status](https://travis-ci.org/ixocreate/contract.svg?branch=master)](https://travis-ci.org/ixocreate/contract)
+[![Build Status](https://travis-ci.com/ixocreate/contract.svg?branch=master)](https://travis-ci.com/ixocreate/contract)
 [![Coverage Status](https://coveralls.io/repos/github/ixocreate/contract/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/contract?branch=develop)
 [![Packagist](https://img.shields.io/packagist/v/ixocreate/contract.svg)](https://packagist.org/packages/ixocreate/contract)
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/ixocreate/contract.svg)](https://packagist.org/packages/ixocreate/contract)
