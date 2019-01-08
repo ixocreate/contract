@@ -1,5 +1,3 @@
-**This is a draft. Don't use in production**
-
 # IXOCREATE contract
 
 [![Build Status](https://travis-ci.com/ixocreate/contract.svg?branch=master)](https://travis-ci.com/ixocreate/contract)
