@@ -65,4 +65,10 @@ interface AdminAwareInterface extends SchemaAwareInterface
      * @return bool
      */
     public function canDelete(RoleInterface $role): bool;
+
+    /**
+     * @param RoleInterface $role
+     * @return bool
+     */
+    public function canView(RoleInterface $role): bool;
 }
