@@ -21,11 +21,15 @@ interface ElementInterface extends \JsonSerializable, NamedServiceInterface
 
     public function label(): ?string;
 
+    public function description(): ?string;
+
     public function metadata(): array;
 
     public function withName(string $name): ElementInterface;
 
     public function withLabel(string $label): ElementInterface;
+
+    public function withDescription(string $description): ElementInterface;
 
     public function withMetadata(array $metadata): ElementInterface;
 
