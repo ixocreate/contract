@@ -22,7 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Contract\\": "src/"
+            "Ixocreate\\Contract\\Admin\\": "src/Admin/",
+            "Ixocreate\\Contract\\Application\\": "src/Application/",
+            "Ixocreate\\Contract\\Command\\": "src/Command/",
+            "Ixocreate\\Contract\\CommandBus\\": "src/CommandBus/",
+            "Ixocreate\\Contract\\Entity\\": "src/Entity/",
+            "Ixocreate\\Contract\\Event\\": "src/Event/",
+            "Ixocreate\\Contract\\Filter\\": "src/Filter/",
+            "Ixocreate\\Contract\\Http\\": "src/Http/",
+            "Ixocreate\\Contract\\Registry\\": "src/Registry/",
+            "Ixocreate\\Contract\\Resource\\": "src/Resource/",
+            "Ixocreate\\Contract\\Schema\\": "src/Schema/",
+            "Ixocreate\\Contract\\ServiceManager\\": "src/ServiceManager/",
+            "Ixocreate\\Contract\\Template\\": "src/Template/",
+            "Ixocreate\\Contract\\Type\\": "src/Type/",
+            "Ixocreate\\Contract\\Validation\\": "src/Validation/"
         }
     },
     "scripts": {
