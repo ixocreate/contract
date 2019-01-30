@@ -11,6 +11,8 @@ namespace Ixocreate\Contract\Registry;
 
 interface RegistryInterface
 {
+    public function all(): array;
+
     public function has(string $name): bool;
 
     public function get(string $name);
