@@ -18,5 +18,5 @@ interface AdditionalSchemaInterface extends NamedServiceInterface
      * @param Builder $builder
      * @return SchemaInterface
      */
-    public function additionalSchema(Builder $builder): SchemaInterface;
+    public function additionalSchema(BuilderInterface $builder): SchemaInterface;
 }
