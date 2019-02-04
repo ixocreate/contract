@@ -23,7 +23,6 @@
     "autoload": {
         "psr-4": {
             "Ixocreate\\Contract\\Admin\\": "src/Admin/",
-            "Ixocreate\\Contract\\Application\\": "src/Application/",
             "Ixocreate\\Contract\\Command\\": "src/Command/",
             "Ixocreate\\Contract\\CommandBus\\": "src/CommandBus/",
             "Ixocreate\\Contract\\Entity\\": "src/Entity/",
