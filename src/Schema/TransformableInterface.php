@@ -11,6 +11,11 @@ namespace Ixocreate\Contract\Schema;
 
 use Ixocreate\Contract\Type\TypeInterface;
 
+/**
+ * Interface TransformableInterface
+ * @package Ixocreate\Contract\Schema
+ * @deprecated
+ */
 interface TransformableInterface
 {
     public function transform($data): TypeInterface;

@@ -11,6 +11,11 @@ namespace Ixocreate\Contract\Schema;
 
 use Ixocreate\Schema\Builder;
 
+/**
+ * Interface SchemaReceiverInterface
+ * @package Ixocreate\Contract\Schema
+ * @deprecated
+ */
 interface SchemaReceiverInterface
 {
     public function receiveSchema(Builder $builder, array $options = []): SchemaInterface;

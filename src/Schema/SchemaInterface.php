@@ -14,6 +14,7 @@ interface SchemaInterface extends \JsonSerializable
     /**
      * @param SchemaReceiverInterface $schemaReceiver
      * @return SchemaInterface
+     * @deprecated
      */
     public function withSchemaReceiver(SchemaReceiverInterface $schemaReceiver): SchemaInterface;
 
@@ -59,6 +60,7 @@ interface SchemaInterface extends \JsonSerializable
 
     /**
      * @return SchemaReceiverInterface|null
+     * @deprecated
      */
     public function schemaReceiver(): ? SchemaReceiverInterface;
 }

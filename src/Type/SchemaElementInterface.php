@@ -12,6 +12,11 @@ namespace Ixocreate\Contract\Type;
 use Ixocreate\Contract\Schema\ElementInterface;
 use Ixocreate\Schema\ElementSubManager;
 
+/**
+ * Interface SchemaElementInterface
+ * @package Ixocreate\Contract\Type
+ * @deprecated
+ */
 interface SchemaElementInterface
 {
     public function schemaElement(ElementSubManager $elementSubManager): ElementInterface;

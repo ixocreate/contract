@@ -17,4 +17,10 @@ interface BuilderInterface
      * @return ElementInterface
      */
     public function create(string $element, string $name): ElementInterface;
+
+    /**
+     * @param string $element
+     * @return ElementInterface
+     */
+    public function get(string $element): ElementInterface;
 }

@@ -16,5 +16,10 @@ interface ResourceInterface extends NamedServiceInterface
     /**
      * @return string
      */
+    public function label(): string;
+
+    /**
+     * @return string
+     */
     public function repository(): string;
 }
