@@ -20,6 +20,7 @@
         "ixocreate/application-contract": "dev-develop",
         "ixocreate/servicemanager-contract": "dev-develop",
         "ixocreate/event-contract": "dev-develop",
+        "ixocreate/filter-contract": "dev-develop",
         "ixocreate/command-bus-contract": "dev-develop",
         "ixocreate/schema-contract": "dev-develop",
         "ixocreate/type-contract": "dev-develop",
@@ -35,9 +36,7 @@
         "psr-4": {
             "Ixocreate\\Contract\\Command\\": "src/Command/",
             "Ixocreate\\Contract\\Entity\\": "src/Entity/",
-            "Ixocreate\\Contract\\Filter\\": "src/Filter/",
             "Ixocreate\\Contract\\Http\\": "src/Http/",
-            "Ixocreate\\Contract\\Registry\\": "src/Registry/",
             "Ixocreate\\Contract\\Template\\": "src/Template/",
             "Ixocreate\\Contract\\Validation\\": "src/Validation/"
         }
